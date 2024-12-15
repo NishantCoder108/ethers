@@ -23,7 +23,7 @@ const provider = new ethers.JsonRpcProvider(infuraUrl);
 //Lookup address : just oppsite of resolveName
 // console.log("Lookup address : ", await provider.lookupAddress("0x313BFD99a71f999dF8A084A90f0A138f11eA2bC7"))
 
-//Get balance :
+//*Get balance :
 // console.log("Elon ETH Bal: ", (await provider.getBalance("elon.eth")).toString()) //Elon ETH Bal:  338341084462521290
 
 // Utils :
